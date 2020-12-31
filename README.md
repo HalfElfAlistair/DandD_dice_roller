@@ -1,4 +1,4 @@
-# FCC-Project-Landing-Page
+# D&D_dice_roller
 
 A dice roller project to mimic the respective dice used in Dungeons & Dragons.
 
@@ -60,6 +60,8 @@ Github: [HalfElfAlistair](https://github.com/HalfElfAlistair)
 
 
 Jamie Barnet
+
+Matt Thomas
 
 
 ## Acknowledgments
