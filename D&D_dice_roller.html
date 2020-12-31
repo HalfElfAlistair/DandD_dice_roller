@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href="assets/stylesheets/style.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			.responsive {
+			  max-width: 100%;
+			  height: auto;
+			}
+        </style>
+         <!--  <script type="module" src="D&D_dice_roller.js"></script>-->
+      <script>
+         
+        function d20Roller() {
+          let result = (Math.floor(Math.random() * 20) + 1);
+          document.getElementById('score').innerHTML = result;
+        }
+
+      </script>
+    </head>
+    <body>
+      <h3>D20</h3>
+      <input value="Click to roll" onclick="d20Roller()" type="button" id="roller">
+      <p class="abilityScore" id="score">Score</p>
+    </body>
