@@ -80,6 +80,7 @@ A really useful source for learning JavaScript.
 A really useful source for learning JavaScript.
 
 ### [Useful Programmer](https://www.youtube.com/channel/UCAocVBB14ixYUfdhKaSrvNQ)
+A brilliant resource to assist with learning to code.
 
 
 ## Author Notes
