@@ -3,32 +3,52 @@ body {
 	overflow-x: hidden;
 	margin: 0;
     line-height: 1.6;
-    background-color: white;
-    height: 100vh;
+    background-color: #121619;
+    color: #41FB35;
 }
 
 h3 {
     font-size: 24px;
-    position: relative;
-    left: 60%;
-    top: 60%;
-    margin-right: 50%;
-    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #F3F8FA;
 }
 
-button {
-    font-size: 24px;
+.dice-section {
+    border: solid 1px #41FB35;
+    border-radius: 3px;
+    margin: 10%;
+}
+
+.roll-button {
     position: relative;
     left: 50%;
-    top: 50%;
-    margin-right: 50%;
-    transform: translate(-50%, -50%);
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+    border-radius: 40px;
     border: none;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 5% 10%;
+    margin: 5% 0;
+    box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.3);
+    background-color: #41FB35;
+    color: #121619;
+    font-size: 16px;
+    font-weight: bold;
 }
 
-button:hover {
-    box-shadow: 3px 3px;
+.roll-button:hover {
+    background-color:#6afb35;
+    /*
+    opacity: 90%;
+    */
+}
+
+.roll-score {
+    text-align: center;
+    border-radius: 3px;
+    margin: 15%;
+    padding: 5%;
+    background-color: #F9FCFD;
+    color: #121619;
+    font-weight: bold;
 }
 

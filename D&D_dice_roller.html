@@ -14,13 +14,15 @@
          
         function d20Roller() {
           let result = (Math.floor(Math.random() * 20) + 1);
-          document.getElementById('score').innerHTML = result;
+          document.getElementById('score').innerHTML = "Score: " + result;
         }
 
       </script>
     </head>
     <body>
-      <h3>D20</h3>
-      <input value="Click to roll" onclick="d20Roller()" type="button" id="roller">
-      <p class="abilityScore" id="score">Score</p>
+      <div class="dice-section">
+        <h3>D20</h3>
+        <input value="Click to roll" onclick="d20Roller()" type="button" id="roller" class="roll-button">
+        <p class="roll-score" id="score">Score:</p>
+      </div>
     </body>
