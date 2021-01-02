@@ -1,5 +1,5 @@
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', Helvetica, Arial, sans-serif;
 	overflow-x: hidden;
 	margin: 0;
     line-height: 1.6;
@@ -10,13 +10,15 @@ body {
 h3 {
     font-size: 24px;
     text-align: center;
-    color: #F3F8FA;
+    color: #CED1D3;
 }
 
 .dice-section {
-    border: solid 1px #41FB35;
+    /*border: solid 1px #41FB35;*/
     border-radius: 3px;
     margin: 10%;
+    background-color: #2F3336;
+    padding: 1px 0%;
 }
 
 .roll-button {
@@ -27,12 +29,12 @@ h3 {
     border-radius: 40px;
     border: none;
     padding: 5% 10%;
-    margin: 5% 0;
     box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.3);
     background-color: #41FB35;
-    color: #121619;
+    color: #2F3336;
     font-size: 16px;
     font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
 }
 
 .roll-button:hover {
@@ -47,8 +49,8 @@ h3 {
     border-radius: 3px;
     margin: 15%;
     padding: 5%;
-    background-color: #F9FCFD;
-    color: #121619;
+    background-color: #CED1D3;
+    color: #2F3336;
     font-weight: bold;
 }
 
