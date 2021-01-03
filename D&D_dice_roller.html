@@ -15,7 +15,16 @@
         function d20Roller() {
           let result = (Math.floor(Math.random() * 20) + 1);
           document.getElementById('score').innerHTML = "Score: " + result;
+          if (result === 20) {
+          document.getElementById('crit').innerHTML = "CRIT! CRIT! CRIT!";
+        } else if (result === 1) {
+          document.getElementById('crit').innerHTML = "CRITICAL FAIL!";
+        } else {
+          document.getElementById('crit').innerHTML = "";
         }
+        }
+
+
 
       </script>
     </head>
@@ -24,5 +33,6 @@
         <h3>D20</h3>
         <input value="Click to roll" onclick="d20Roller()" type="button" id="roller" class="roll-button">
         <p class="roll-score" id="score">Score:</p>
+        <p id="crit"></p>
       </div>
     </body>
