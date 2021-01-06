@@ -35,6 +35,7 @@ h3 {
     font-size: 16px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium';
+    margin-top: 15%;
 }
 
 .roll-button:hover {
@@ -60,3 +61,4 @@ h3 {
     margin: 5%;
     text-align: center;
 }
+
