@@ -9,24 +9,7 @@
 			  height: auto;
 			}
         </style>
-         <!--  <script type="module" src="D&D_dice_roller.js"></script>-->
-      <script>
-         
-        function d20Roller() {
-          let result = (Math.floor(Math.random() * 20) + 1);
-          document.getElementById('20score').innerHTML = "Score: " + result;
-          if (result === 20) {
-          document.getElementById('crit').innerHTML = "CRIT! CRIT! CRIT!";
-        } else if (result === 1) {
-          document.getElementById('crit').innerHTML = "CRITICAL FAIL!";
-        } else {
-          document.getElementById('crit').innerHTML = "";
-        }
-        }
-
-
-
-      </script>
+        <script src="D&D_dice_roller.js" type="text/javascript" charset="utf-8"></script>
     </head>
     <body>
       <div class="dice-section">
