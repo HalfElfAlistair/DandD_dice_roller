@@ -9,3 +9,8 @@
             document.getElementById('crit').innerHTML = "";
           }
         }
+
+        function d12Roller() {
+          let result12 = (Math.floor(Math.random() * 12) + 1);
+          document.getElementById('12score').innerHTML = "Score: " + result12;
+        }
