@@ -19,3 +19,8 @@
           let result10 = (Math.floor(Math.random() * 10) + 1);
           document.getElementById('10score').innerHTML = "Score: " + result10;
         }
+
+        function d100Roller() {
+          let result100 = (Math.floor(Math.random() * 100) + 1);
+          document.getElementById('100score').innerHTML = "Score: " + result100;
+        }
