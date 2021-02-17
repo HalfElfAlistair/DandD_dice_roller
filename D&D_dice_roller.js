@@ -24,3 +24,8 @@
           let result100 = (Math.floor(Math.random() * 100) + 1);
           document.getElementById('100score').innerHTML = "Score: " + result100;
         }
+
+        function d8Roller() {
+          let result8 = (Math.floor(Math.random() * 8) + 1);
+          document.getElementById('8score').innerHTML = "Score: " + result8;
+        }
