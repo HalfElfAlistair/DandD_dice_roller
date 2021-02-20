@@ -34,3 +34,8 @@
           let result6 = (Math.floor(Math.random() * 6) + 1);
           document.getElementById('6score').innerHTML = "Score: " + result6;
         }
+
+        function d4Roller() {
+          let result4 = (Math.floor(Math.random() * 4) + 1);
+          document.getElementById('4score').innerHTML = "Score: " + result4;
+        }
