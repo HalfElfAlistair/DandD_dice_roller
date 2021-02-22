@@ -62,3 +62,10 @@ h3 {
     text-align: center;
 }
 
+
+@media only screen and (min-width: 340px) {
+    .dice-section {
+        width: 272px;
+        margin: 10% auto;
+    }
+}
