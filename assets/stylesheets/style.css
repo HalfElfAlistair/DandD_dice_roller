@@ -14,7 +14,6 @@ h3 {
 }
 
 .dice-section {
-    /*border: solid 1px #41FB35;*/
     border-radius: 3px;
     margin: 34px 10%;
     background-color: #2F3336;
@@ -26,23 +25,21 @@ h3 {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, 0);
-    border-radius: 40px;
+    border-radius: 3px;
     border: none;
     padding: 5% 10%;
     box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.3);
     background-color: #41FB35;
     color: #2F3336;
     font-size: 16px;
-    font-weight: bold;
     font-family: 'Franklin Gothic Medium';
     margin-top: 15%;
 }
 
 .roll-button:hover {
     background-color:#6afb35;
-    /*
-    opacity: 90%;
-    */
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .roll-score {
