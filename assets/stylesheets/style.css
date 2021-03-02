@@ -13,6 +13,16 @@ h3 {
     color: #CED1D3;
 }
 
+img {
+    width: 35%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+    margin-top: 5%;
+}
+
 .dice-section {
     border-radius: 3px;
     margin: 34px 10%;
