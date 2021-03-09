@@ -2,7 +2,8 @@
         
         function d20Roller() {
             let result20 = (Math.floor(Math.random() * 20) + 1);
-            document.getElementById('20score').innerHTML = "Score: " + result20;
+            // document.getElementById('20score').innerHTML = "Score: " + result20;
+            document.getElementById('20score').innerHTML = result20;
 
 // To represent the critical status assigned to both a 1 and 20 result with a D20, an additional HTML message will appear below the value if it is a 20 or 1.
 
