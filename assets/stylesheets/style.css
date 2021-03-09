@@ -10,6 +10,12 @@ body {
 h3 {
     font-size: 24px;
     text-align: center;
+    color: #2F3336;
+}
+
+.heading20 {
+    font-size: 24px;
+    text-align: center;
     color: #CED1D3;
 }
 
@@ -17,6 +23,18 @@ img {
     width: 35%;
     height: auto;
     position: relative;
+    top: 70px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+    margin-top: 5%;
+}
+
+.img20 {
+    width: 40%;
+    height: auto;
+    position: relative;
+    top: 70px;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, 0);
@@ -46,6 +64,23 @@ img {
     margin-top: 15%;
 }
 
+.roll-button20 {
+    position: relative;
+    top: -75px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+    border-radius: 3px;
+    border: none;
+    padding: 5% 10%;
+    box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.3);
+    background-color: #41FB35;
+    color: #2F3336;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium';
+    margin-top: 15%;
+}
+
 .roll-button:hover {
     background-color:#6afb35;
     text-decoration: underline;
@@ -59,6 +94,16 @@ img {
     padding: 5%;
     background-color: #CED1D3;
     color: #2F3336;
+    font-weight: bold;
+}
+
+.roll-score20 {
+    position: relative;
+    top: -35px;
+    left: 2%;
+    z-index: 35;
+    text-align: center;
+    color: #121619;
     font-weight: bold;
 }
 
