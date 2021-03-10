@@ -13,7 +13,7 @@ h3 {
     color: #2F3336;
 }
 
-.heading20 {
+.headingnew {
     font-size: 24px;
     text-align: center;
     color: #CED1D3;
@@ -30,7 +30,7 @@ img {
     margin-top: 5%;
 }
 
-.img20 {
+.imgnew {
     width: 40%;
     height: auto;
     position: relative;
@@ -64,7 +64,7 @@ img {
     margin-top: 15%;
 }
 
-.roll-button20 {
+.roll-buttonnew {
     position: relative;
     top: -75px;
     left: 50%;
@@ -97,14 +97,22 @@ img {
     font-weight: bold;
 }
 
-.roll-score20 {
+.roll-scorenew {
     position: relative;
-    top: -35px;
-    left: 2%;
     z-index: 35;
     text-align: center;
     color: #121619;
     font-weight: bold;
+}
+
+#score20 {
+    top: -35px;
+    left: 2%;
+}
+
+#score12 {
+    top: -27px;
+    left: 1%;
 }
 
 #crit {
