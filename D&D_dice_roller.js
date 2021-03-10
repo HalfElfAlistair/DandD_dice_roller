@@ -2,8 +2,8 @@
         
         function d20Roller() {
             let result20 = (Math.floor(Math.random() * 20) + 1);
-            // document.getElementById('20score').innerHTML = "Score: " + result20;
-            document.getElementById('20score').innerHTML = result20;
+            // document.getElementById('score20').innerHTML = "Score: " + result20;
+            document.getElementById('score20').innerHTML = result20;
 
 // To represent the critical status assigned to both a 1 and 20 result with a D20, an additional HTML message will appear below the value if it is a 20 or 1.
 
@@ -20,30 +20,31 @@
 
         function d12Roller() {
           let result12 = (Math.floor(Math.random() * 12) + 1);
-          document.getElementById('12score').innerHTML = "Score: " + result12;
+          // document.getElementById('score12').innerHTML = "Score: " + result12;
+          document.getElementById('score12').innerHTML = result12;
         }
 
         function d10Roller() {
           let result10 = (Math.floor(Math.random() * 10) + 1);
-          document.getElementById('10score').innerHTML = "Score: " + result10;
+          document.getElementById('score10').innerHTML = "Score: " + result10;
         }
 
         function d8Roller() {
           let result8 = (Math.floor(Math.random() * 8) + 1);
-          document.getElementById('8score').innerHTML = "Score: " + result8;
+          document.getElementById('score8').innerHTML = "Score: " + result8;
         }
 
         function d6Roller() {
           let result6 = (Math.floor(Math.random() * 6) + 1);
-          document.getElementById('6score').innerHTML = "Score: " + result6;
+          document.getElementById('score6').innerHTML = "Score: " + result6;
         }
 
         function d4Roller() {
           let result4 = (Math.floor(Math.random() * 4) + 1);
-          document.getElementById('4score').innerHTML = "Score: " + result4;
+          document.getElementById('score4').innerHTML = "Score: " + result4;
         }
 
         function d100Roller() {
           let result100 = (Math.floor(Math.random() * 100) + 1);
-          document.getElementById('100score').innerHTML = "Score: " + result100;
+          document.getElementById('score100').innerHTML = "Score: " + result100;
         }
