@@ -46,6 +46,7 @@ img {
     margin: 34px 10%;
     background-color: #2F3336;
     padding: 1px 0%;
+    padding-bottom: 43px;
 }
 
 .roll-button {
@@ -111,6 +112,11 @@ img {
 }
 
 #score12 {
+    top: -27px;
+    left: 1%;
+}
+
+#score10 {
     top: -27px;
     left: 1%;
 }

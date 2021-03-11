@@ -26,7 +26,8 @@
 
         function d10Roller() {
           let result10 = (Math.floor(Math.random() * 10) + 1);
-          document.getElementById('score10').innerHTML = "Score: " + result10;
+          // document.getElementById('score10').innerHTML = "Score: " + result10;
+          document.getElementById('score10').innerHTML = result10;
         }
 
         function d8Roller() {
