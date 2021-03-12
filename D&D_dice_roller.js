@@ -32,7 +32,8 @@
 
         function d8Roller() {
           let result8 = (Math.floor(Math.random() * 8) + 1);
-          document.getElementById('score8').innerHTML = "Score: " + result8;
+          // document.getElementById('score8').innerHTML = "Score: " + result8;
+          document.getElementById('score8').innerHTML = result8;
         }
 
         function d6Roller() {
