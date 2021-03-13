@@ -126,6 +126,11 @@ img {
     left: 1%;
 }
 
+#score6 {
+    top: -60px;
+    left: 1%;
+}
+
 #crit {
     color: #41FB35;
     padding: 5%;

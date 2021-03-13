@@ -38,7 +38,8 @@
 
         function d6Roller() {
           let result6 = (Math.floor(Math.random() * 6) + 1);
-          document.getElementById('score6').innerHTML = "Score: " + result6;
+          // document.getElementById('score6').innerHTML = "Score: " + result6;
+          document.getElementById('score6').innerHTML = result6;
         }
 
         function d4Roller() {
