@@ -44,7 +44,8 @@
 
         function d4Roller() {
           let result4 = (Math.floor(Math.random() * 4) + 1);
-          document.getElementById('score4').innerHTML = "Score: " + result4;
+          // document.getElementById('score4').innerHTML = "Score: " + result4;
+          document.getElementById('score4').innerHTML = result4;
         }
 
         function d100Roller() {
