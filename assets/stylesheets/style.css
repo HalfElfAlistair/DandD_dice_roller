@@ -131,6 +131,11 @@ img {
     left: 1%;
 }
 
+#score4 {
+    top: -20px;
+    left: 1%;
+}
+
 #crit {
     color: #41FB35;
     padding: 5%;
