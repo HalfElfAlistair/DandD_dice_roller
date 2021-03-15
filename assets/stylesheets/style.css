@@ -20,17 +20,6 @@ h3 {
 }
 
 img {
-    width: 35%;
-    height: auto;
-    position: relative;
-    top: 70px;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, 0);
-    margin-top: 5%;
-}
-
-.imgnew {
     width: 40%;
     height: auto;
     position: relative;
@@ -116,8 +105,9 @@ img {
     left: 1%;
 }
 
-#score10 {
-    top: -27px;
+#score10,
+#score100 {
+    top: -35px;
     left: 1%;
 }
 
