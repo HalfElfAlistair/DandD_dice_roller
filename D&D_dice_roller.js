@@ -50,5 +50,6 @@
 
         function d100Roller() {
           let result100 = (Math.floor(Math.random() * 100) + 1);
-          document.getElementById('score100').innerHTML = "Score: " + result100;
+          // document.getElementById('score100').innerHTML = "Score: " + result100;
+          document.getElementById('score100').innerHTML = result100;
         }
