@@ -40,22 +40,6 @@ img {
 
 .roll-button {
     position: relative;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, 0);
-    border-radius: 3px;
-    border: none;
-    padding: 5% 10%;
-    box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.3);
-    background-color: #41FB35;
-    color: #2F3336;
-    font-size: 16px;
-    font-family: 'Franklin Gothic Medium';
-    margin-top: 15%;
-}
-
-.roll-buttonnew {
-    position: relative;
     top: -95px;
     left: 50%;
     margin-right: -50%;
@@ -64,7 +48,9 @@ img {
     border: none;
     padding: 5% 10%;
     box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.3);
+    /* background-color: #41FB35; */
     background-color: #41FB35;
+    background-color: #CED1D3;
     color: #2F3336;
     font-size: 16px;
     font-family: 'Franklin Gothic Medium';
@@ -72,7 +58,7 @@ img {
 }
 
 .roll-button:hover {
-    background-color:#6afb35;
+    background-color:#41FB35;
     text-decoration: underline;
     font-weight: bold;
 }
