@@ -35,7 +35,7 @@ img {
     margin: 34px 10%;
     background-color: #2F3336;
     padding: 1px 0%;
-    padding-bottom: 43px;
+    height: 354px;
 }
 
 .roll-button {
@@ -79,44 +79,45 @@ img {
     text-align: center;
     color: #121619;
     font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 
 #score20 {
-    top: -40px;
+    top: -24px;
     left: 2%;
 }
 
 #score12 {
-    top: -30px;
+    top: -14px;
     left: 1%;
 }
 
 #score10,
 #score100 {
-    top: -35px;
+    top: -19px;
     left: 1%;
 }
 
 #score8 {
-    top: -27px;
+    top: -11px;
     left: 1%;
 }
 
 #score6 {
-    top: -60px;
+    top: -44px;
     left: 1%;
 }
 
 #score4 {
-    top: -20px;
+    top: -4px;
     left: 1%;
 }
 
 #crit {
     color: #41FB35;
-    padding: 5%;
-    margin: 5%;
     text-align: center;
+    margin-top: 50px;
 }
 
 
