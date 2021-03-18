@@ -10,12 +10,6 @@ body {
 h3 {
     font-size: 24px;
     text-align: center;
-    color: #2F3336;
-}
-
-.headingnew {
-    font-size: 24px;
-    text-align: center;
     color: #CED1D3;
 }
 
@@ -64,60 +58,49 @@ img {
 }
 
 .roll-score {
-    text-align: center;
-    border-radius: 3px;
-    margin: 15%;
-    padding: 5%;
-    background-color: #CED1D3;
-    color: #2F3336;
-    font-weight: bold;
-}
-
-.roll-scorenew {
     position: relative;
     z-index: 35;
     text-align: center;
     color: #121619;
     font-weight: bold;
-    margin: 0;
-    padding: 0;
+    font-size: 18px;
 }
 
 #score20 {
-    top: -24px;
+    top: -40px;
     left: 2%;
 }
 
 #score12 {
-    top: -14px;
+    top: -30px;
     left: 1%;
 }
 
 #score10,
 #score100 {
-    top: -19px;
+    top: -35px;
     left: 1%;
 }
 
 #score8 {
-    top: -11px;
+    top: -27px;
     left: 1%;
 }
 
 #score6 {
-    top: -44px;
+    top: -60px;
     left: 1%;
 }
 
 #score4 {
-    top: -4px;
+    top: -20px;
     left: 1%;
 }
 
 #crit {
     color: #41FB35;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 26px;
 }
 
 
