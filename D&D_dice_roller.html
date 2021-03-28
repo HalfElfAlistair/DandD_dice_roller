@@ -9,58 +9,63 @@
 			  height: auto;
 			}
         </style>
-        <script src="D&D_dice_roller.js" type="text/javascript" charset="utf-8"></script>
+        <script src="jquery.js"></script>
+        <script src="D&D_dice_roller.js"></script>
     </head>
     <body>
+      <section id="nav-section">
+        <select id="dice-select" required>
+          <option disabled selected value>Choose a dice from the dropdown list!</option>
+          <option>D20</option>
+          <option>D12</option>
+          <option>D10</option>
+          <option>D8</option>
+          <option>D6</option>
+          <option>D4</option>
+          <option>D100</option>
+        </select>
+      </section>
       <section>
-        <div class="dice-section">
-          <!-- <img src="assets/images/d20.png" alt="A bright green D20 di"> -->
-          <h3 class="headingnew">D20</h3>
-          <input value="Click to roll" onclick="d20Roller()" type="button" id="20roller" class="roll-button">
+        <div class="dice-section" id="d20-section">
+          <h3 class="headingnew" id="d20test">D20</h3>
+          <input value="Click to roll" type="button" id="20roller" class="roll-button">
           <img src="assets/images/d20.png" alt="A bright green D20 di">
-          <!-- <p class="roll-score" id="score20">Score:</p> -->
           <p class="roll-score" id="score20"></p>
           <p id="crit"></p>
         </div>
-        <div class="dice-section">
-          <!-- <img src="assets/images/d12.png" alt="A bright green D12 di"> -->
+        <div class="dice-section" id="d12-section">
           <h3 class="headingnew">D12</h3>
-          <input value="Click to roll" onclick="d12Roller()" type="button" id="12roller" class="roll-button">
+          <input value="Click to roll" type="button" id="12roller" class="roll-button">
           <img src="assets/images/d12.png" alt="A bright green D12 di">
           <p class="roll-score" id="score12"></p>
         </div>
-        <div class="dice-section">
-          <!-- <img src="assets/images/d10.png" alt="A bright green D10 di"> -->
+        <div class="dice-section" id="d10-section">
           <h3 class="headingnew">D10</h3>
-          <input value="Click to roll" onclick="d10Roller()" type="button" id="10roller" class="roll-button">
+          <input value="Click to roll" type="button" id="10roller" class="roll-button">
           <img src="assets/images/d10.png" alt="A bright green D10 di">
           <p class="roll-score" id="score10"></p>
         </div>
-        <div class="dice-section">
-          <!-- <img src="assets/images/d8.png" alt="A bright green D8 di"> -->
+        <div class="dice-section" id="d8-section">
           <h3 class="headingnew">D8</h3>
-          <input value="Click to roll" onclick="d8Roller()" type="button" id="8roller" class="roll-button">
+          <input value="Click to roll" type="button" id="8roller" class="roll-button">
           <img src="assets/images/d8.png" alt="A bright green D8 di">
           <p class="roll-score" id="score8"></p>
         </div>
-        <div class="dice-section">
-          <!-- <img src="assets/images/d6.png" alt="A bright green D6 di"> -->
+        <div class="dice-section" id="d6-section">
           <h3 class="headingnew">D6</h3>
-          <input value="Click to roll" onclick="d6Roller()" type="button" id="6roller" class="roll-button">
+          <input value="Click to roll" type="button" id="6roller" class="roll-button">
           <img src="assets/images/d6.png" alt="A bright green D6 di">
           <p class="roll-score" id="score6"></p>
         </div>
-        <div class="dice-section">
-          <!-- <img src="assets/images/d4.png" alt="A bright green D4 di"> -->
+        <div class="dice-section" id="d4-section">
           <h3 class="headingnew">D4</h3>
-          <input value="Click to roll" onclick="d4Roller()" type="button" id="4roller" class="roll-button">
+          <input value="Click to roll" type="button" id="4roller" class="roll-button">
           <img src="assets/images/d4.png" alt="A bright green D4 di">
           <p class="roll-score" id="score4"></p>
         </div>
-        <div class="dice-section">
-          <!-- <img src="assets/images/d100.png" alt="A bright green D100 di"> -->
+        <div class="dice-section" id="d100-section">
           <h3 class="headingnew">D100</h3>
-          <input value="Click to roll" onclick="d100Roller()" type="button" id="100roller" class="roll-button">
+          <input value="Click to roll" type="button" id="100roller" class="roll-button">
           <img src="assets/images/d100.png" alt="A bright green D100 di">
           <p class="roll-score" id="score100"></p>
         </div>
