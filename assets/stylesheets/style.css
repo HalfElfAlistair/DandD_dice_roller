@@ -66,6 +66,18 @@ img {
     font-size: 18px;
 }
 
+#nav-section {
+    border-radius: 3px;
+    margin: 10%;
+}
+
+#dice-select {
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
 #score20 {
     top: -40px;
     left: 2%;
@@ -105,64 +117,9 @@ img {
 
 
 @media only screen and (min-width: 340px) {
-    .dice-section {
+    .dice-section,
+    #nav-section {
         width: 272px;
         margin: 34px auto;
-    }
-}
-
-
-@media only screen and (min-width: 646px) {
-    section {
-        width: 578px;
-        margin: 0 auto;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-content: center;
-    }
-
-    .dice-section {
-        margin-bottom: 17px;
-        margin-top: 17px;
-    }
-
-    div:nth-child(1),
-    div:nth-child(3),
-    div:nth-child(5) {
-        margin-right: 17px;
-    }
-
-    div:nth-child(2),
-    div:nth-child(4),
-    div:nth-child(6) {
-        margin-left: 17px;
-    }
-
-}
-
-
-@media only screen and (min-width: 952px) {
-
-    section {
-        width: 884px;;
-    }
-
-    div:nth-child(1),
-    div:nth-child(4) {
-        margin-right: 17px;
-        margin-left: 0;
-    }
-
-    div:nth-child(2),
-    div:nth-child(5) {
-        margin-right: 17px;
-        margin-left: 17px;
-    }
-
-    div:nth-child(3),
-    div:nth-child(6) {
-        margin-left: 17px;
-        margin-right: 0;
     }
 }
