@@ -21,19 +21,19 @@ A dice roller project to mimic the respective dice used in Dungeons & Dragons.
 
 ## Introduction
 
-Made as a joint project to help friends practice their coding skills.
+A dice roller which I've actually used on a few occasions when away from home without dice.
 
 ### Aims
 
 Offer a useful alternative for when you've lost your dice but have a D&D session about to start!
 
-Practice, improve and demonstrate what we can do with fundamental coding languages.
+Practice, improve and demonstrate what I can do with fundamental coding languages.
 
 ## Technologies
 
 - HTML
 - CSS
-- JavaScript
+- JavaScript/jQuery
 
 ## Launch
 
@@ -61,11 +61,6 @@ Email: [alistairjss90@gmail.com](alistairjss90@gmail.com)
 Github: [HalfElfAlistair](https://github.com/HalfElfAlistair)
 
 
-Jamie Barnet
-
-Matt Thomas
-
-
 ## Acknowledgments
 
 ### [FreeCodeCamp](https://www.freecodecamp.org/)
@@ -90,4 +85,4 @@ A brilliant resource to assist with learning to code.
 ## Author Notes
 
 ### Why D&D?
-Aside from it being a fun shared hobby, we both saw a lot of potential for D&D as something we could develop coding projects around. With so much information and variables the possibilities are seemingly endless for what we can create as we improve our knowledge.
+Aside from it being a fun hobby, I saw a lot of potential for D&D as something I could develop coding projects around. With so much information and variables, the possibilities are seemingly endless for what I can create as my knowledge improves.
